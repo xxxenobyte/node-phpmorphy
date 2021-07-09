@@ -5,7 +5,8 @@
     "clean": "rimraf dist && mkdir dist",
     "build": "npm run clean && babel src -d dist",
     "lint": "eslint . --ext .js,.mjs,.ts",
-    "lint:fix": "eslint . --ext .js,.mjs,.ts --fix && prettier \"**/*.{json,md}\" --write"
+    "lint:fix": "eslint . --ext .js,.mjs,.ts --fix && prettier \"**/*.{json,md}\" --write",
+    "install": "npm run build"
   },
   "main": "./index.js",
   "dependencies": {
