@@ -1,6 +1,6 @@
 {
   "name": "phpmorphy",
-  "version": "2.3.2",
+  "version": "2.3.3",
   "scripts": {
     "clean": "rimraf dist && mkdir dist",
     "build": "npm run clean && babel src -d dist",
